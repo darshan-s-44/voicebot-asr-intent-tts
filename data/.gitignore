@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model files (large)
+models/intent_model/
+*.safetensors
+*.bin
+
+# Generated audio files
+outputs/
+*.mp3
+*.wav
+!test_audio/*.mp3
+
+# Logs and temp files
+logs/
+*.log
+temp/
+tmp_audio/
+
+# IDE files
+.vscode/
+.idea/
+
+# Training outputs
+intent_model_results/
+
+# OS junk
+Thumbs.db
+.DS_Store
